@@ -1,21 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</head>
+  <body>
+    <!--หัวขข้อแบบใหม่-->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color:rgb(30, 208, 50) ;">
+      <span style="color: white;" class="fw-bold m-2">Resume</span>
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-
-
-</body>
-
+    <div style="background-color: #d6f4ff" class="border border-2 rounded-3 p-2 ">
+      <!--เนื้อหา-->
+    <div class="align-items-center d-flex vstack mt-3">
+      <img
+        src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/289769477_511190980805441_3515409303502463523_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=J9NvcjG8ZnIAX9WcVm_&_nc_ht=scontent.fbkk10-1.fna&oh=03_AVI-ayYHJQBZHLYLnMEs97NSCxKqVLqwmGipU97d61shXg&oe=62E447C8"
+        width="300"
+        height="300"
+        style="object-fit: cover"
+        class="rounded-circle"
+      />
+      <h3 class="fw-bold mt-2">Siksaka Watcharasart</h3>
+    </div>
+    <div class="align-items-center d-flex vstack mt-3 ">
+      <p>
+        Hi. My name is Siksaka Watcharasart. I study in Chiang Mai University. Study Computer
+        Engineering.
+      </p>
+      <p>I love programing. I'm interested in website development.</p>
+    </div>
+    <!--card1-->
+    <div class="align-items-center d-flex vstack mt-3 ">
+      <h3 class="fw-bold">MySkill</h3>
+      <div class="card mb-3" style="max-width: 800px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/290645404_328560032778093_2436556105207266860_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Id0q6x7wMrMAX8JDJ-C&tn=WzuNN46NJKp_SvTm&_nc_ht=scontent.fbkk10-1.fna&oh=03_AVIoQfJm3ssaTIZ-nA9W-UEU8ki3nDlUlBqZUbUVDMORNA&oe=62E2C1E5"
+              class="img-fluid rounded-start"
+              alt=""
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Playing Guitar</h5>
+              <p class="card-text">
+                I love playing guitar!. Playing guitar is my favorite hobbies. I
+                playing guitar in a band name "Knock"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--card2-->
+      <div class="card mb-3" style="max-width: 800px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?auto=webp&quality=95&crop=16:9&width=675"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Coding</h5>
+              <p class="card-text">
+                I can coding. I can make website by using HTML and CSS. I can
+                code by using C++ to make program too.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--card3-->
+      <div class="card mb-3" style="max-width: 800px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://th.bing.com/th/id/R.bf8d672b84eab5b5ef518616db3a96d4?rik=x5670VAEEs%2b84w&pid=ImgRaw&r=0"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Playing Basketball</h5>
+              <p class="card-text">
+                I love playing basketball!. I usually play basketball with my
+                friends in my freetime.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
